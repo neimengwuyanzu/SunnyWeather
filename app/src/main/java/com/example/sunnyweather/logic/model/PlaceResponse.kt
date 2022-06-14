@@ -1,6 +1,5 @@
 package com.example.sunnyweather.logic.model
 
-import android.location.Location
 import com.google.gson.annotations.SerializedName
 
 data class PlaceResponse(val status:String,val places:List<Place>) {
